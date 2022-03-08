@@ -16,7 +16,7 @@ public class Springboot {
         WebDriver driver = new FirefoxDriver();
 */
 
-        driver.get("http://localhost");
+        driver.get("https://google.com");
         driver.manage().window().setSize(new Dimension(1366, 728));
 
     }
